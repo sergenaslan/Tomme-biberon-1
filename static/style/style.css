@@ -1,0 +1,137 @@
+*{
+    padding:0;margin:0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.img-respon{
+    width: 100%;
+}
+.spaceBetween{
+    justify-content: space-between;
+}
+.justifyCenter{
+    justify-content: center;
+}
+.marginTop-10{
+    margin-top: 10px;
+}
+.marginTop-30{
+    margin-top: 30px;
+}
+.marginTop-50{
+    margin-top: 50px;
+}
+.marginTop-70{
+    margin-top: 70px;
+}
+.paddingTop-25{
+    padding-top: 50 px;
+}
+.border{
+    border:1px solid blue;
+}
+.fluid{
+    max-width: 970px;
+    position: relative;
+    margin:0 auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+.row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+@font-face{
+    font-family: 'AmsiProCond-Black';
+    src: url('./static/font/AmsiProCond-Black.otf')format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face{
+    font-family: 'AmsiPro-Regular';
+    src: url('./static/font/AmsiPro-Regular.otf')format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.Productcontent{
+    width: 100%;
+    padding:0 4.5%;
+    height: auto;
+    background-color: #79dbe7;
+
+}
+.productfeatures{
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 52px;
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    margin:0 auto;
+    color: #104d8c;
+    display: inline-block;
+    margin-top: 30px;
+}
+.blueLine{
+    margin : 0 auto 40px auto;
+    width: 80%;
+}
+
+.featureImage{
+    width: 140px;
+    margin-left: 35px;
+}
+.featureText{
+    width: calc(95% - 140px);
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.featureText p{
+    font-family: 'Manrope', sans-serif !important;
+    color: #13397a;
+    font-size: 18px;
+}
+.property{
+    margin-left: 15%;
+    width: 70%;
+    min-height: 500px;
+}
+.propertyContent{
+    width: 250px;
+    display: inline-block;
+    min-height: 150px;
+    margin-bottom: 50px;
+}
+.propertyContent img{
+    justify-content: center;
+    margin-left: 50px;
+}
+.propertyContent p{
+    font-family: 'Manrope', sans-serif !important;
+    margin-top: 12px;
+    color: #13397a;
+    font-size: 16px;
+    text-align: center;
+}
+
+.propertyContent:nth-last-of-type(3){
+    float: right;
+}
+.propertyContent:nth-last-of-type(1){
+    float: right;
+}
+
+
+
+
+
+
+
